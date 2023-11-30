@@ -1,0 +1,5 @@
+.idea
+aoc2020.iml
+.env
+input.txt
+*.swp
