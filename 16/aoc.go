@@ -165,12 +165,12 @@ func PartTwo(lines []string) int {
 	}
 
 	for y := range grid {
-		// Top row
+		// Left-most column
 		energized := process(beam{loc: point{x: -1, y: y}, direction: right}, grid)
 		if energized > maxEnergized {
 			maxEnergized = energized
 		}
-		// Bottom row
+		// Right-most column
 		energized = process(beam{loc: point{x: len(grid[0]), y: y}, direction: left}, grid)
 		if energized > maxEnergized {
 			maxEnergized = energized
