@@ -1,4 +1,4 @@
-# Advent of Code 2022 - golang
+# Advent of Code 2023 - golang
 
 ## Initial setup
 
@@ -28,5 +28,9 @@ go test -run ''
 To run a particular day, cd to dir and:
 
 ```bash
-got run aoc01.go  # for day 1, etc
+got run aoc.go
 ```
+
+## Summary
+
+Ran out of steam for the last 2 days, but pretty ok otherwise :)
